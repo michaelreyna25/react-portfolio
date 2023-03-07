@@ -1,6 +1,6 @@
 import React from "react";
 
-function navBar({ currentPage, pageChange }) {
+function NavigationBar({ currentPage, pageChange }) {
     return (
         <ul className="nav nav-tabs">
             <li className="nav-item">
@@ -43,4 +43,4 @@ function navBar({ currentPage, pageChange }) {
     );
 }
 
-export default navBar;
+export default NavigationBar;

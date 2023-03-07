@@ -1,6 +1,6 @@
 import React from "react";
 
-function footer() {
+function Footer() {
     return (
         <footer>
             <div className="git-hub">
@@ -27,4 +27,4 @@ function footer() {
     );
 } 
 
-export default footer;
+export default Footer;
