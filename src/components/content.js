@@ -2,15 +2,13 @@ import React, { useState } from 'react';
 import NavigationBar from './pages/navTabs';
 import Header from './header';
 import Footer from './pages/footer';
-import Home from './pages/Home';
+import Contact from './pages/contact';
+import Portfolio from './pages/portfolio';
+import Resume from './pages/resume';
 
-
-export default function Portfolio() { 
+export default function CreatePortfolio() { 
     const [ currentPage, setCurrentPage ] =useState('Home')
     const pageRender = () => {
-        if (currentPage === 'Home') {
-            return <Home />;
-        }
         if (currentPage === 'About') {
             return <About />;
         }
